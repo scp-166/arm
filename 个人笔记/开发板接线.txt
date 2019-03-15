@@ -1,0 +1,10 @@
+# 材料
+- 电源不用说了
+- 一个大usb转小usb
+- 两条usb线 
+    - usb1: 一个用于serial
+    - usb2: 一个用于uboot烧写(用 dnw )
+- eop 用来 oflash 烧写， 和 usb线2 互斥
+
+nor 和 nand 都可以烧bootloader(uboot是一种实现)，一般都写0地址
+
